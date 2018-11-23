@@ -22,7 +22,7 @@ open class PullToRefresh: NSObject {
     open var springDamping: CGFloat = 0.4
     open var navigationControllerHeight : CGFloat = 0
     open var initialSpringVelocity: CGFloat = 0.8
-    open var animationOptions: UIViewAnimationOptions = [.curveLinear]
+    open var animationOptions: UIView.AnimationOptions = [.curveLinear]
 
     let refreshView: UIView
     var action: (() -> ())?
